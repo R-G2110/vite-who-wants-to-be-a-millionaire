@@ -1,0 +1,38 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.active {
+	background-color: yellow;
+	
+}
+
+.wrong-answer {
+	background-color: red;
+}
+.correct-answer {
+	background-color: green;
+	color: white;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	height: 400px;
+	background-color: #171B86;
+}
+
+main {
+	height: calc(100vh - 400px);
+	background-color: #11093A;
+}
